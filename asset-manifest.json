@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ea7cfc9d.css",
-    "main.js": "/static/js/main.3fd57f5f.js",
+    "main.js": "/static/js/main.fa0eb277.js",
     "static/js/488.c47dd2d3.chunk.js": "/static/js/488.c47dd2d3.chunk.js",
     "static/media/pp.png": "/static/media/pp.73effe43c376bd0559da.png",
     "static/media/Hasaranga Dias.pdf": "/static/media/Hasaranga Dias.d3d5e5de0129e73a94a5.pdf",
@@ -9,11 +9,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.ea7cfc9d.css.map": "/static/css/main.ea7cfc9d.css.map",
-    "main.3fd57f5f.js.map": "/static/js/main.3fd57f5f.js.map",
+    "main.fa0eb277.js.map": "/static/js/main.fa0eb277.js.map",
     "488.c47dd2d3.chunk.js.map": "/static/js/488.c47dd2d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea7cfc9d.css",
-    "static/js/main.3fd57f5f.js"
+    "static/js/main.fa0eb277.js"
   ]
 }
