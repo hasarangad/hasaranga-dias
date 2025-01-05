@@ -1,0 +1,189 @@
+.navbar {
+    padding: 10px 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 30px;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 20px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-list a:hover {
+    color: #00ffb3;
+    /* background: linear-gradient(90deg, #ffffff 40%,  #00ffb3 90%); */
+
+}
+.nav-list:visited{
+    color: #00ffb3;
+}
+
+.about{
+    align-items: center; 
+    justify-content: space-between; 
+    width: 70%; 
+    max-width: 1200px; 
+    margin: 0px auto; 
+    padding: 20px; /* Add some padding around the container */
+    transition: transform 0.5s ease;
+}
+
+.about h1{
+    font-size: 50px;
+    text-align: center;
+    color: #00ffb3;
+    margin: 10px;
+}
+
+.about p{
+    font-size: 22px;
+    text-align: justify;
+    color: white;
+    margin-top: 50px;
+}
+
+.contact{
+    align-items: center; 
+    justify-content: space-between; 
+    width: 70%; 
+    max-width: 1200px; 
+    margin: auto; 
+    padding: 20px; /* Add some padding around the container */
+    transition: transform 0.5s ease;
+}
+
+.contact h1{
+    font-size: 50px;
+    text-align: center;
+    color: #00ffb3;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.contact p{
+    font-size: 22px;
+    text-align: justify;
+    color: white;
+    
+}
+/* In your about.css file */
+.contact p {
+    display: flex;
+    align-items: center;
+    margin: 25px 10px;
+  }
+  
+  .contact a {
+    margin-left: 10px;
+    color: white; /* You can change the color */
+  }
+  
+  .contact svg {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  
+  .education {
+    align-items: center; 
+    justify-content: space-between; 
+    width: 70%; 
+    max-width: 1200px; 
+    margin: auto; 
+    padding: 20px; /* Add some padding around the container */
+    transition: transform 0.5s ease;
+  }
+  
+  .education h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #00ffb3;
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .education p {
+    font-size: 22px;
+    text-align: justify;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .education p img {
+    width: 80px; /* Logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between logo and text */
+    border-radius: 5px; /* Slightly rounded corners for logos */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    margin-bottom: 10px;
+  }
+  
+.education p strong {
+    color: white;
+    padding-bottom: 50px;
+}
+
+.extra-curricular, .awards {
+    padding: 20px;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .extra-curricular h1, .awards h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .extra-curricular ul, .awards ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .extra-curricular ul li, .awards ul li {
+    margin-bottom: 10px;
+  }
+  
+  .extra-curricular ul li strong, .awards ul li strong {
+    color: #0073e6;
+  }
+  
+
+
+
+
+
+.about, .contact, .education, .techSkills {
+    opacity: 0;
+    transform: translateX(50px); /* Start from right side */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  /* When scrolled into view, apply these styles */
+  .in-view {
+    opacity: 1;
+    transform: translateX(0); /* Move to original position */
+  }
+  
+  .out-of-view {
+    opacity: 0;
+    transform: translateX(50px); /* Move out to right side */
+  }
+ 
+
+  
