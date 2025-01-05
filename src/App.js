@@ -3,7 +3,13 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
-
+import React, { useState, useEffect } from 'react';
+import Navbar from './components/Navbar';
+import pp from './images/pp.png';
+import './pages/home.css';
+// import '../output.css';
+import ParticleBackground from './pages/particles.js';
+import cv from './cv/Hasaranga Dias.pdf'; 
 
 function App() {
   useEffect(() => {
