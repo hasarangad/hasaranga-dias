@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hasaranga-dias/static/css/main.ea7cfc9d.css",
+    "main.js": "/hasaranga-dias/static/js/main.b6830c5e.js",
+    "static/js/488.c47dd2d3.chunk.js": "/hasaranga-dias/static/js/488.c47dd2d3.chunk.js",
+    "static/media/pp.png": "/hasaranga-dias/static/media/pp.73effe43c376bd0559da.png",
+    "static/media/Hasaranga Dias.pdf": "/hasaranga-dias/static/media/Hasaranga Dias.d3d5e5de0129e73a94a5.pdf",
+    "static/media/kiu_logo.png": "/hasaranga-dias/static/media/kiu_logo.290340d139cee646559b.png",
+    "static/media/logo.svg": "/hasaranga-dias/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/hasaranga-dias/index.html",
+    "main.ea7cfc9d.css.map": "/hasaranga-dias/static/css/main.ea7cfc9d.css.map",
+    "main.b6830c5e.js.map": "/hasaranga-dias/static/js/main.b6830c5e.js.map",
+    "488.c47dd2d3.chunk.js.map": "/hasaranga-dias/static/js/488.c47dd2d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea7cfc9d.css",
+    "static/js/main.b6830c5e.js"
+  ]
+}
